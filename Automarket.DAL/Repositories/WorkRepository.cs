@@ -36,12 +36,24 @@ namespace Itmytask.DAL.Repositories
 
         public async Task<List<Work>> GetAsyncSelect()  // или public async Task<Car> GetAsync(int id)
         {
+            string query = "SELECT 'Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork'";
+            var works = await _db.Work.FromSqlRaw(query, "public.Work").ToListAsync();
+
             //var comps = db.Companies.FromSqlRaw("SELECT * FROM Companies").ToList();
-            List<Work> works = await _db.Work.FromSqlRaw("SELECT Id, NameTask, TaskNumber, Description, Customer, AdressTask, Price,  DateCreate, TypeWork FROM Work").ToListAsync();//SELECT NameProduct, NameCategory FROM dbo.Product , 
-                                                                                         //dbo.Category WHERE Category.Id = Product.IdNameCategory Order
-                                                                                          //By NameProduct;
-                                                                                          // SELECT * FROM Car
-                                                                                          //return await _db.Car.FirstOrDefaultAsync(x => x.Id == id);
+            
+            //var works = await _db.Work.FromSqlRaw("SELECT 'Work.Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork' FROM public.\"Work\"").ToListAsync();
+            
+            // было List<Work> = await _db.Work.FromSqlRaw  //после MYSQL
+            //SELECT NameProduct, NameCategory FROM dbo.Product , 
+            //dbo.Category WHERE Category.Id = Product.IdNameCategory Order
+            //By NameProduct;
+            // SELECT * FROM Car
+            //return await _db.Car.FirstOrDefaultAsync(x => x.Id == id);
+            //SELECT "Id", "NameTask", "TaskNumber", "Description", "Customer", "AdressTask", "Price",  "DateCreate", "TypeWork" FROM "Work"
+            //было "SELECT Id, NameTask, TaskNumber, Description, Customer, AdressTask, Price,  DateCreate, TypeWork FROM Work"
+            //"SELECT 'Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork' FROM 'Work'
+
+
             return works; // _db.Car.FromSqlRaw("SELECT * FROM Companies").ToListAsync();
             
         }
