@@ -130,8 +130,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T02:02:16.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T02:02:16.836Z"
             },
             {
               "$type": "Document",
@@ -167,8 +166,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T16:59:00.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T16:59:00.687Z"
             },
             {
               "$type": "Document",
@@ -180,8 +178,7 @@
               "RelativeToolTip": "WebApplication3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-08T14:55:12.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:55:12.024Z"
             },
             {
               "$type": "Document",
@@ -205,8 +202,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Home\\PostEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:45:20.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:45:20.451Z"
             },
             {
               "$type": "Document",
@@ -218,8 +214,7 @@
               "RelativeToolTip": "Automarket.DAL\\Itmytask.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T14:57:56.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:57:56.528Z"
             },
             {
               "$type": "Document",
@@ -231,8 +226,7 @@
               "RelativeToolTip": "WebApplication3\\Views\\Work\\GetWorks.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T17:24:27.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T17:24:27.101Z"
             },
             {
               "$type": "Document",
@@ -242,7 +236,7 @@
               "RelativeDocumentMoniker": "Automarket.DAL\\ApplicationDbContext.cs",
               "ToolTip": "C:\\VisualStudio2022\\W10\\Itmytask\\WebApplication3\\Automarket.DAL\\ApplicationDbContext.cs",
               "RelativeToolTip": "Automarket.DAL\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T23:15:33.379Z",
               "EditorCaption": ""
@@ -257,8 +251,7 @@
               "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAnwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T23:37:56.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T23:37:56.561Z"
             },
             {
               "$type": "Document",
@@ -414,8 +407,7 @@
               "RelativeToolTip": "WebApplication3\\Itmytask.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T14:58:16.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:58:16.498Z"
             },
             {
               "$type": "Document",
@@ -427,8 +419,7 @@
               "RelativeToolTip": "Automarket.Domain\\Itmytask.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T15:00:18.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:00:18.112Z"
             }
           ]
         }
