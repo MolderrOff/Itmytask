@@ -28,7 +28,7 @@ namespace Itmytask.DAL          //Берёт из базы данных и пр�
         {
             optionsBuilder.LogTo(Console.WriteLine)
                  .UseLazyLoadingProxies()
-                 .UseNpgsql("Host = localhost; Username = postgres; Password = example; Database = TaskPrice;");
+                 .UseNpgsql("Host = localhost;Port=5432; Username = postgres; Password = example; Database = TaskPrice;");
         }
 
         //образец: "Host=localhost;Port=5432;Database=usersdb;Username=postgres;Password=пароль_от_postgres"
