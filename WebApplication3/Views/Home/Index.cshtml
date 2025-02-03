@@ -7,7 +7,8 @@
 
 <div>
     <h1 class="display-4">Home</h1>
-    <p>Создание путём перехода на страницу /Work/GetWorks: <a href="https://localhost:44309/Work/GetWorks">Создать новые тестовые следующие позиции в БД</a>.</p>
+    <p>Создание путём перехода на страницу /Work/GetWorks: <a  asp-area="" asp-controller="Work" asp-action="GetWorks">GetWorks</a> При этом создаются новые тестовые следующие позиции в БД.</p>
+    
 
     
     @{
@@ -147,9 +148,20 @@
     
 
     <p>Страница /Home/Privacy: <a href="https://localhost:44309/Home/Privacy">Загрузить список всех позиций из БД, только просмотр</a>.</p>
+    <p>Вторая ссылка: Страница /Home/Privacy:
+    <a asp-area="" asp-controller="Home" asp-action="Privacy">Загрузить список всех позиций из БД, только просмотр</a>
+    </p>
     <p>Страница /Home/NewCreate: <a href="https://localhost:44309/Home/NewCreate">Добавить объект в БД</a>.</p>
+    <p>
+        Вторая ссылка:  Страница/Home/NewCreate:
+        <a asp-area="" asp-controller="Home" asp-action="NewCreate">Добавить объект в БД</a>
+    </p>
     
     <p>Страница /Home/GetPosition: <a href="https://localhost:44309/Home/GetPosition">Список объектов в БД, изменить, удалить</a>.</p>
+    <p>
+        Вторая ссылка: Страница/Home/GetPosition:
+        <a asp-area="" asp-controller="Home" asp-action="GetPosition">Список объектов в БД, изменить, удалить</a>
+    </p>
 </div>
 
 
