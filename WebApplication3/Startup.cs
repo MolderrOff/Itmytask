@@ -66,7 +66,7 @@ namespace Itmytask
 
             services.AddDbContext<ApplicationDbContext>(options =>
             options
-
+            //added Link Controller
             //.UseMySql(
             //    connection
             //    , ServerVersion.AutoDetect(connection)
