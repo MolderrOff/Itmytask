@@ -14,6 +14,25 @@ using Itmytask.DAL.Interfaces;
 using Itmytask.DAL.Repositories;
 
 
+
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+//using Microsoft.OpenApi.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
+//using AspExampleDb.Db;
+
+
 namespace Itmytask
 {
     public class Startup
@@ -24,15 +43,45 @@ namespace Itmytask
         }
 
         public IConfiguration Configuration { get; }
+        public object WebApplication { get; private set; }//Добавил
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers(); ////Добавил
             services.AddControllersWithViews();
+
+
+            var config = new ConfigurationBuilder();
+            config.AddJsonFile("appsettings.json");
+            var configBuilder = config.Build();
+
+
+
             var connection = Configuration.GetConnectionString("DefaultConnection");//передаём название объекта котор содержит строку 
-                               //подключения к бд
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection)); //регистрация класса  ApplicationDbContext
-                              //который хранит компоненты для работы с бд, после этого будет коннект с бд во время запроса
+                                                                                    //подключения к бд
+                                                                                    //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection)); //регистрация класса  ApplicationDbContext
+                                                                                    //который хранит компоненты для работы с бд, после этого будет коннект с бд во время запроса
+                                                                                    //-- выключил в Mysql
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options
+
+            //.UseMySql(
+            //    connection
+            //    , ServerVersion.AutoDetect(connection)
+            //    //, options => options.EnableRetryOnFailure(
+            //    //    maxRetryCount: 10,
+            //    //    maxRetryDelay: System.TimeSpan.FromSeconds(90),
+            //    //    errorNumbersToAdd: null)
+
+            //));
+            //.UseMySql(connection, new MySqlServerVersion(new Version(8, 0, 40))));//UseNpgsql(connection)); было до mysql
+            .UseMySql("Host = localhost; Port=3306; Database = TaskPrice; Username = root; Password = ghgkyUYTUY456;",
+            new MySqlServerVersion(new Version(8, 0, 40)))
+            );
+
+
             services.AddScoped<IWorkRepository, WorkRepository>();
         }
 

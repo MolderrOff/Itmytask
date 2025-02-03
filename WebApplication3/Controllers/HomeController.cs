@@ -20,7 +20,7 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
     {
         private readonly IWorkRepository _workRepository; // возврат после удаления 140824
 
-        public HomeController(IWorkRepository workRepository) // возврат после удаления 140824
+        public HomeController(IWorkRepository workRepository) // возврат после удаления   140824
         {
             _workRepository = workRepository;
         }
@@ -29,31 +29,32 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
         public async Task<IActionResult> Index() //<<<<------------------
         {
 
-            var responseSelect = await _workRepository.GetAsyncSelect();
+            ////var responseSelect = await _workRepository.GetAsyncSelect();
 
 
-            Work work = new Work() //130824 2341 создадим новый объект
-            { 
-                NameTask = "Замена видеорегистратора",   //он зависит от work.cs в енампе (перечислении)
-                TaskNumber = 3028,
-                Description = " В салоне пришёл новый регистратор, необходимо заменить, установленный отдать продавцам",
-                Customer = "Линии любви",
-                AdressTask = "г. Орёл, ул. Революции, 38",
-                Price = 1500,
-                //StatusTask = "в работе",
-                DateCreate = DateTime.Now,
-                TypeWork = TypeWork.Free
-            };
-            //await _carRepository.Create(car);
-            return View(work); // 130824 чтобы закинуть объект в представление передаём в качестве параметра в метод View
+            ////Work work = new Work() //130824 2341 создадим новый объект
+            ////{ 
+            ////    NameTask = "Замена видеорегистратора",   //он зависит от work.cs в енампе (перечислении)
+            ////    TaskNumber = 3028,
+            ////    Description = " В салоне пришёл новый регистратор, необходимо заменить, установленный отдать продавцам",
+            ////    Customer = "Линии любви",
+            ////    AdressTask = "г. Орёл, ул. Революции, 38",
+            ////    Price = 1500,
+            ////    //StatusTask = "в работе",
+            ////    DateCreate = DateTime.Now,
+            ////    TypeWork = TypeWork.Free
+            ////};
+            //////await _carRepository.Create(car);
+            ////return View(work); // 130824 чтобы закинуть объект в представление передаём в качестве параметра в метод View
 
-            //return View();
+            return View();
         }   //<---------------------------20-11-24
 
         public async Task<IActionResult> GetPosition()
         {
             //await _carRepository.Select();
-            var responseSelect = await _workRepository.GetAsyncSelect();
+            //var responseSelect = await _workRepository.GetAsyncSelect();
+            var responseSelect = await _workRepository.Select();
             return View(responseSelect);
         }
         [HttpGet]
@@ -65,7 +66,8 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
 
 
 
-            var responseSelect = await _workRepository.GetAsyncSelect();
+            //var responseSelect = await _workRepository.GetAsyncSelect();
+            var responseSelect = await _workRepository.Select();
             Work work = new Work() //130824 2341 создадим новый объект
             {
                 NameTask = "Настроить камеру",   //он зависит от car.cs в енампе (перечислении)
@@ -75,7 +77,7 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
                 AdressTask = "г. Орёл, ул. Революции, 38",
                 Price = 1500,
                 //StatusTask = "в работе",
-                DateCreate = DateTime.Now,
+                //DateCreate = DateTime.Now,
                 TypeWork = TypeWork.Free
             };
             //await _carRepository.Create(car);
@@ -93,7 +95,8 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
             await _workRepository.Create(work);
             //await _carRepository.Delete(car1);
 
-            var responseSelect = await _workRepository.GetAsyncSelect(); //----->> 071224
+            var responseSelect = await _workRepository.Select();
+            //var responseSelect = await _workRepository.GetAsyncSelect(); //----->> 071224
 
             return RedirectToAction("GetPosition");
             //return View();
@@ -104,7 +107,7 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
         {
             if (id != null)
             {
-                Work? work = await _workRepository.GetAsync(id);
+                Work work = await _workRepository.GetAsync(id); // убрал ? после Work
                 if (work != null) 
                 {
                     var responseSelect = await _workRepository.Delete(work);

@@ -20,7 +20,7 @@ namespace Itmytask.Domain.Entity
         public string AdressTask { get; set; } //адрес выполнения заявки
         public decimal  Price { get; set; }
             //public string StatusTask { get; set; } //статус заявки
-        public DateTime DateCreate { get; set; }      
+        //public DateTime DateCreate { get; set; }      
         public TypeWork TypeWork { get; set; } //статус заявки
 
 

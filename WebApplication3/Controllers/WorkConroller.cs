@@ -32,13 +32,13 @@ namespace Itmytask.Controllers
             var work = new Work()
             {
                 NameTask = "Восстановить ПК продавца",   //он зависит от car.cs в енампе (перечислении)
-                TaskNumber = 3028,
+                TaskNumber = 3928,
                 Description = "не запускается компьютер продавца",
                 Customer = "Линии любви",
                 AdressTask = "г. Орёл, ул. Революции, 38",
                 Price = 1500,
                 //StatusTask = "в работе",
-                DateCreate = DateTime.Now,
+                //DateCreate = DateTime.Now,
                 TypeWork = TypeWork.Free
             };
 
@@ -56,7 +56,7 @@ namespace Itmytask.Controllers
                 AdressTask = "г. Ульяновск, ул. Республики, 8",
                 Price = 1900,
                 //StatusTask = "в работе",
-                DateCreate = DateTime.Now,
+                //DateCreate = DateTime.Now,
                 TypeWork = TypeWork.Free
             };
 
@@ -64,8 +64,9 @@ namespace Itmytask.Controllers
             await _workRepository.Create(work1);
             //await _carRepository.Delete(car1);
 
-            var responseSelect = await _workRepository.GetAsyncSelect(); //----->> 071224
-            
+            //var responseSelect = await _workRepository.GetAsyncSelect(); //убрал MY SQL
+            var responseSelect = await _workRepository.Select();
+
             return View(responseSelect); //response будт храниться писок объектов из нашей бд
             
         }
