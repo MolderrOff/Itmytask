@@ -33,7 +33,10 @@ namespace Itmytask.DAL          //Берёт из базы данных и пр�
             //образец:
             //"Host=localhost;Port=5432;Database=usersdb;Username=postgres;Password=пароль_от_postgres"
             //);
-            .UseMySql("Host = localhost; Port=3306; Database = TaskPrice;  Username = root; Password = ghgkyUYTUY456;",
+            .UseMySql(
+                //"Host = localhost; Port=3306; Database = TaskPrice;  Username = root; Password = ghgkyUYTUY456;"
+                "Host = 37.143.10.243; Port=3306; Database = TaskPrice;  Username = usertest; Password = 12345678;"
+                ,
             new MySqlServerVersion(new Version(8, 0, 40)));
 
         }

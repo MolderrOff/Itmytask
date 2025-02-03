@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\automarket.dal\\itmytask.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|solutionrelative:automarket.dal\\itmytask.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\getposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\getposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\automarket.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|solutionrelative:automarket.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\newcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\itmytask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\itmytask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\controllers\\workconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\automarket.dal\\itmytask.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|solutionrelative:automarket.dal\\itmytask.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,32 +91,16 @@
       "RelativeMoniker": "D:0:0:{D028AFBE-7A99-4990-A062-4457630EA81E}|Automarket.DAL\\Itmytask.DAL.csproj|solutionrelative:automarket.dal\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\work\\getworks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\work\\getworks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE4D95FF-9A3C-4108-ACA6-11D3D10E5F21}|Automarket.Domain\\Itmytask.Domain.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\automarket.domain\\enum\\typework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE4D95FF-9A3C-4108-ACA6-11D3D10E5F21}|Automarket.Domain\\Itmytask.Domain.csproj|solutionrelative:automarket.domain\\enum\\typework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|c:\\vstudio2022\\itmytask2\\itmytask\\webapplication3\\views\\home\\getposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF957763-9F30-477E-9172-7AF3D9E0B805}|WebApplication3\\Itmytask.csproj|solutionrelative:webapplication3\\views\\home\\getposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,11 +110,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Automarket.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Automarket.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:15:33.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication3\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication3\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T20:05:55.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetPosition.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\GetPosition.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\GetPosition.cshtml",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\GetPosition.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\GetPosition.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:44:17.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostEdit.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\PostEdit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\PostEdit.cshtml",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\PostEdit.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\PostEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:45:20.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Privacy.cshtml",
@@ -127,20 +179,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Program.cs",
-              "RelativeToolTip": "WebApplication3\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:55:13.584Z",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T21:17:34.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:37:56.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Itmytask.DAL.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
+              "RelativeDocumentMoniker": "Automarket.DAL\\Itmytask.DAL.csproj",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
+              "RelativeToolTip": "Automarket.DAL\\Itmytask.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T14:57:56.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\appsettings.json",
+              "RelativeToolTip": "WebApplication3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T14:55:12.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:45:56.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Startup.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Startup.cs",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Startup.cs",
+              "RelativeToolTip": "WebApplication3\\Startup.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:55:28.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewCreate.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\NewCreate.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\NewCreate.cshtml",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\NewCreate.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\NewCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:45:05.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Itmytask.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Itmytask.csproj",
+              "RelativeDocumentMoniker": "WebApplication3\\Itmytask.csproj",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Itmytask.csproj",
+              "RelativeToolTip": "WebApplication3\\Itmytask.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T14:58:16.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "WorkConroller.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Controllers\\WorkConroller.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\WorkConroller.cs",
@@ -152,94 +293,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Itmytask.csproj",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Itmytask.csproj",
-              "RelativeDocumentMoniker": "WebApplication3\\Itmytask.csproj",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Itmytask.csproj",
-              "RelativeToolTip": "WebApplication3\\Itmytask.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T14:58:16.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:45:56.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NewCreate.cshtml",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\NewCreate.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\NewCreate.cshtml",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\NewCreate.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Home\\NewCreate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:45:05.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Startup.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Startup.cs",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Startup.cs",
-              "RelativeToolTip": "WebApplication3\\Startup.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwEkAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
+              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "WebApplication3\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:55:28.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:55:13.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Automarket.DAL\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Automarket.DAL\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T23:15:33.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\appsettings.json",
-              "RelativeToolTip": "WebApplication3\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-08T14:55:12.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplication3\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplication3\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T20:05:55.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\_ViewImports.cshtml",
@@ -251,19 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Itmytask.DAL.csproj",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
-              "RelativeDocumentMoniker": "Automarket.DAL\\Itmytask.DAL.csproj",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
-              "RelativeToolTip": "Automarket.DAL\\Itmytask.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T14:57:56.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ErrorViewModel.cs",
@@ -275,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Work.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Entity\\Work.cs",
               "RelativeDocumentMoniker": "Automarket.Domain\\Entity\\Work.cs",
@@ -287,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Itmytask.Domain.csproj",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj",
               "RelativeDocumentMoniker": "Automarket.Domain\\Itmytask.Domain.csproj",
@@ -295,11 +349,12 @@
               "RelativeToolTip": "Automarket.Domain\\Itmytask.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T15:00:18.112Z"
+              "WhenOpened": "2024-12-08T15:00:18.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "WorkRepository.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Repositories\\WorkRepository.cs",
               "RelativeDocumentMoniker": "Automarket.DAL\\Repositories\\WorkRepository.cs",
@@ -311,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "IWorkRepository.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Interfaces\\IWorkRepository.cs",
               "RelativeDocumentMoniker": "Automarket.DAL\\Interfaces\\IWorkRepository.cs",
@@ -323,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "Automarket.DAL\\Interfaces\\IBaseRepository.cs",
@@ -335,19 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T21:17:34.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "GetWorks.cshtml",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Work\\GetWorks.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Work\\GetWorks.cshtml",
@@ -359,19 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T23:37:56.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -384,30 +415,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "GetPosition.cshtml",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\GetPosition.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\GetPosition.cshtml",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\GetPosition.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Home\\GetPosition.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:44:17.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PostEdit.cshtml",
-              "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\PostEdit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\PostEdit.cshtml",
-              "ToolTip": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Views\\Home\\PostEdit.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Home\\PostEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T15:45:20.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "TypeWork.cs",
               "DocumentMoniker": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Enum\\TypeWork.cs",
               "RelativeDocumentMoniker": "Automarket.Domain\\Enum\\TypeWork.cs",
