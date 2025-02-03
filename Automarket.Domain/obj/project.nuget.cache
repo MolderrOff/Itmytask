@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwNO3TFzq2c=",
+  "dgSpecHash": "MvSxt/VNVMU=",
   "success": true,
-  "projectFilePath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\Itmytask.Domain.csproj",
+  "projectFilePath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\desat\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\desat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

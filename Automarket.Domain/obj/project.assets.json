@@ -2635,11 +2635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\Itmytask.Domain.csproj",
+      "projectUniqueName": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj",
       "projectName": "Itmytask.Domain",
-      "projectPath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\Itmytask.Domain.csproj",
+      "projectPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj",
       "packagesPath": "C:\\Users\\desat\\.nuget\\packages\\",
-      "outputPath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\obj\\",
+      "outputPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

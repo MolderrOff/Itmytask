@@ -2657,11 +2657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.DAL\\Itmytask.DAL.csproj",
+      "projectUniqueName": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
       "projectName": "Itmytask.DAL",
-      "projectPath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.DAL\\Itmytask.DAL.csproj",
+      "projectPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\Itmytask.DAL.csproj",
       "packagesPath": "C:\\Users\\desat\\.nuget\\packages\\",
-      "outputPath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.DAL\\obj\\",
+      "outputPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2683,8 +2683,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\Itmytask.Domain.csproj": {
-              "projectPath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\Automarket.Domain\\Itmytask.Domain.csproj"
+            "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj": {
+              "projectPath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\Automarket.Domain\\Itmytask.Domain.csproj"
             }
           }
         }

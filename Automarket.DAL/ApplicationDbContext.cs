@@ -19,7 +19,9 @@ namespace Itmytask.DAL          //Берёт из базы данных и пр�
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder//.LogTo(Console.WriteLine)
+            optionsBuilder
+                //training Git this new string
+                //.LogTo(Console.WriteLine)
                  //.UseLazyLoadingProxies()
                  //.UseNpgsql(
                     //"Server:localhost; Database:TaskPrice; UserId:root; Password:ghgkyUYTUY456;"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ETzr6+eZBmo=",
+  "dgSpecHash": "LvNaVsi5YLc=",
   "success": true,
-  "projectFilePath": "C:\\VStudio2022\\Itmytask\\WebApplication3\\WebApplication3\\Itmytask.csproj",
+  "projectFilePath": "C:\\VStudio2022\\Itmytask2\\Itmytask\\WebApplication3\\Itmytask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\desat\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\desat\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
