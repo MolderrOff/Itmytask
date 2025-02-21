@@ -20,7 +20,7 @@
 Порядок сборки\
 apt install -y dotnet-sdk-8.0\
 dotnet restore\
-dotnet build\
+dotnet build
 
 Если развёрнуто на хостинге, то набрать\
-dotnet run --urls=http://*:80\
+dotnet run --urls=http://*:80
