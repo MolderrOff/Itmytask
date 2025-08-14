@@ -43,12 +43,12 @@ namespace Itmytask
         }
 
         public IConfiguration Configuration { get; }
-        public object WebApplication { get; private set; }//Добавил
+        public object WebApplication { get; private set; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+       
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(); ////Добавил
+            services.AddControllers(); 
             services.AddControllersWithViews();
 
 
@@ -58,25 +58,13 @@ namespace Itmytask
 
 
 
-            var connection = Configuration.GetConnectionString("DefaultConnection");//передаём название объекта котор содержит строку 
-                                                                                    //подключения к бд
-                                                                                    //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection)); //регистрация класса  ApplicationDbContext
-                                                                                    //который хранит компоненты для работы с бд, после этого будет коннект с бд во время запроса
-                                                                                    //-- выключил в Mysql
+            var connection = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<ApplicationDbContext>(options =>
             options
-            //added Link Controller
-            //.UseMySql(
-            //    connection
-            //    , ServerVersion.AutoDetect(connection)
-            //    //, options => options.EnableRetryOnFailure(
-            //    //    maxRetryCount: 10,
-            //    //    maxRetryDelay: System.TimeSpan.FromSeconds(90),
-            //    //    errorNumbersToAdd: null)
+           
 
-            //));
-            //.UseMySql(connection, new MySqlServerVersion(new Version(8, 0, 40))));//UseNpgsql(connection)); было до mysql
+           
             .UseMySql("Host = localhost; Port=3306; Database = TaskPrice; Username = root; Password = ghgkyUYTUY456;",
             new MySqlServerVersion(new Version(8, 0, 40)))
             );
@@ -85,7 +73,7 @@ namespace Itmytask
             services.AddScoped<IWorkRepository, WorkRepository>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+       
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -95,7 +83,7 @@ namespace Itmytask
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+               
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
