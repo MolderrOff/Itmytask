@@ -12,15 +12,15 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Threading.Tasks;
 using WebApplication3.Models;
-//using Itmytask.Models;
 
-namespace Itmytask.Controllers //было WebApplication3.Controllers
+
+namespace Itmytask.Controllers 
 {
     public class HomeController : Controller
     {
-        private readonly IWorkRepository _workRepository; // возврат после удаления 140824
+        private readonly IWorkRepository _workRepository; 
 
-        public HomeController(IWorkRepository workRepository) // возврат после удаления   140824
+        public HomeController(IWorkRepository workRepository) 
         {
             _workRepository = workRepository;
         }
@@ -44,7 +44,7 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
             var responseSelect = await _workRepository.Select();
             Work work = new Work() 
             {
-                NameTask = "Настроить камеру",   //он зависит от car.cs в енампе (перечислении)
+                NameTask = "Настроить камеру",  
                 TaskNumber = 1000,
                 Description = "настроить камеру 8, после выполнение позвонить в техподдержку",
                 Customer = "Линии любви",
@@ -75,12 +75,12 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
             ;
         }
 
-        [HttpPost] //данный метод обрабатывает только запросы типа POST потому что использование get-методов не безопасно
+        [HttpPost] 
         public async Task<IActionResult> PostDelete(int id)
         {
             if (id != null)
             {
-                Work work = await _workRepository.GetAsync(id); // убрал ? после Work
+                Work work = await _workRepository.GetAsync(id); 
                 if (work != null) 
                 {
                     var responseSelect = await _workRepository.Delete(work);
