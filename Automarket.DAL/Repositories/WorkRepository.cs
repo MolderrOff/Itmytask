@@ -15,46 +15,33 @@ namespace Itmytask.DAL.Repositories
     {
         private readonly ApplicationDbContext _db;
 
-        public WorkRepository(ApplicationDbContext db)  // инициализировали класс в конструкторе
+        public WorkRepository(ApplicationDbContext db)  
         {
             _db = db;
         }
 
-        public async Task<bool> Create(Work entity)  // при имплементации подставился Car - это благодаря дженерикам
-                                        // связь с IBaswRepository и ICarRepository
+        public async Task<bool> Create(Work entity)  
         {
             await _db.Work.AddAsync(entity);
-            // _db.Car.Update(entity);
-            await _db.SaveChangesAsync();//140824 2-25 await _db.SaveChangesAsync();//await _db.SaveChangesAsync();//dataManager.ServiceItems.SaveServiceItem(model);
+            
+            await _db.SaveChangesAsync();
             return true; 
         }
 
-        public async Task<Work> GetAsync(int id)  // или public async Task<Car> GetAsync(int id)
+        public async Task<Work> GetAsync(int id)  
         {
             return await _db.Work.FirstOrDefaultAsync(x => x.Id == id);
 ;        }
 
-        public async Task<List<Work>> GetAsyncSelect()  // или public async Task<Car> GetAsync(int id)
+        public async Task<List<Work>> GetAsyncSelect()  
         {
             string query = "SELECT 'Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork'";
             var works = await _db.Work.FromSqlRaw(query, "public.Work").ToListAsync();
 
-            //var comps = db.Companies.FromSqlRaw("SELECT * FROM Companies").ToList();
             
-            //var works = await _db.Work.FromSqlRaw("SELECT 'Work.Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork' FROM public.\"Work\"").ToListAsync();
-            
-            // было List<Work> = await _db.Work.FromSqlRaw  //после MYSQL
-            //SELECT NameProduct, NameCategory FROM dbo.Product , 
-            //dbo.Category WHERE Category.Id = Product.IdNameCategory Order
-            //By NameProduct;
-            // SELECT * FROM Car
-            //return await _db.Car.FirstOrDefaultAsync(x => x.Id == id);
-            //SELECT "Id", "NameTask", "TaskNumber", "Description", "Customer", "AdressTask", "Price",  "DateCreate", "TypeWork" FROM "Work"
-            //было "SELECT Id, NameTask, TaskNumber, Description, Customer, AdressTask, Price,  DateCreate, TypeWork FROM Work"
-            //"SELECT 'Id', 'NameTask', 'TaskNumber', 'Description', 'Customer', 'AdressTask', 'Price', 'TypeWork' FROM 'Work'
 
 
-            return works; // _db.Car.FromSqlRaw("SELECT * FROM Companies").ToListAsync();
+            return works; 
             
         }
 
@@ -64,8 +51,7 @@ namespace Itmytask.DAL.Repositories
 
             List<Work> works = await _db.Work.ToListAsync(); //удалил 140824 1-16
             return works;  //удалил 140824 1-16сделали метод асинхронным, чтобы сайт не завис во время получения данных 
-            //return await _db.Car.ToListAsync();
-            //return _db.Car.ToListAsync() Делаем обращение к бд, и возвращаем из неё в метод select 
+           
         }
 
         public async Task<bool> DeleteAsync(Work entity) // 140824 2-22 public bool Delete(Car entity)
@@ -77,7 +63,7 @@ namespace Itmytask.DAL.Repositories
 
         public async Task<Work> GetByNameAsync(string name)  // public async Task<Car> GetByNameAsync(string name)
         {
-            // return await _db.Work.FirstOrDefaultAsync(x => x.Name == name);
+           
             return await _db.Work.FirstOrDefaultAsync(x => x.NameTask == name);
         }
 
@@ -86,13 +72,13 @@ namespace Itmytask.DAL.Repositories
             _db.Work.Remove(entity);
             await _db.SaveChangesAsync(); // 140824 2-25
             return true;
-            //throw new NotImplementedException();
+           
         }
 
         public async Task<bool> UpdateAsync(Work entity)
         {
             _db.Work.Update(entity);
-            // _db.Car.Update(entity);
+            
             await _db.SaveChangesAsync();//140824 2-25 await _db.SaveChangesAsync();//await _db.SaveChangesAsync();//dataManager.ServiceItems.SaveServiceItem(model);
             return true;
         }
@@ -104,10 +90,6 @@ namespace Itmytask.DAL.Repositories
 
 
 
-        /*public IEnumerable<Car> Select() //написал сам
-        {
-            //throw new System.NotImplementedException();
-            return _db.Car.ToList();
-        }*/
+       
     }
 }
