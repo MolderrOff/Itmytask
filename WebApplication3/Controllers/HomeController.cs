@@ -26,49 +26,23 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index() //<<<<------------------
+        public async Task<IActionResult> Index() 
         {
-
-            ////var responseSelect = await _workRepository.GetAsyncSelect();
-
-
-            ////Work work = new Work() //130824 2341 создадим новый объект
-            ////{ 
-            ////    NameTask = "Замена видеорегистратора",   //он зависит от work.cs в енампе (перечислении)
-            ////    TaskNumber = 3028,
-            ////    Description = " В салоне пришёл новый регистратор, необходимо заменить, установленный отдать продавцам",
-            ////    Customer = "Линии любви",
-            ////    AdressTask = "г. Орёл, ул. Революции, 38",
-            ////    Price = 1500,
-            ////    //StatusTask = "в работе",
-            ////    DateCreate = DateTime.Now,
-            ////    TypeWork = TypeWork.Free
-            ////};
-            //////await _carRepository.Create(car);
-            ////return View(work); // 130824 чтобы закинуть объект в представление передаём в качестве параметра в метод View
 
             return View();
-        }   //<---------------------------20-11-24
-
+        }   
         public async Task<IActionResult> GetPosition()
         {
-            //await _carRepository.Select();
-            //var responseSelect = await _workRepository.GetAsyncSelect();
+            
             var responseSelect = await _workRepository.Select();
             return View(responseSelect);
         }
         [HttpGet]
         public async Task<IActionResult> Privacy()
         {
-            //var response = await _workRepository.Select(); //было var response = await _carRepository.Select();
-            //var response1 = await _workRepository.GetByNameAsync("bugatti");//var response1 = await _carRepository.GetByName("BMWX5");
-            //var response2 = await _workRepository.GetAsync(1);// var response2 =  _carRepository.GetAsync(3);
-
-
-
-            //var responseSelect = await _workRepository.GetAsyncSelect();
+          
             var responseSelect = await _workRepository.Select();
-            Work work = new Work() //130824 2341 создадим новый объект
+            Work work = new Work() 
             {
                 NameTask = "Настроить камеру",   //он зависит от car.cs в енампе (перечислении)
                 TaskNumber = 1000,
@@ -76,13 +50,12 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
                 Customer = "Линии любви",
                 AdressTask = "г. Орёл, ул. Революции, 38",
                 Price = 1500,
-                //StatusTask = "в работе",
-                //DateCreate = DateTime.Now,
+                
                 TypeWork = TypeWork.Free
             };
-            //await _carRepository.Create(car);
+            
             return View(responseSelect);
-            //return View();
+            
         }
         public IActionResult NewCreate()
         {
@@ -93,13 +66,13 @@ namespace Itmytask.Controllers //было WebApplication3.Controllers
         {
 
             await _workRepository.Create(work);
-            //await _carRepository.Delete(car1);
+           
 
             var responseSelect = await _workRepository.Select();
-            //var responseSelect = await _workRepository.GetAsyncSelect(); //----->> 071224
+       
 
             return RedirectToAction("GetPosition");
-            //return View();
+            ;
         }
 
         [HttpPost] //данный метод обрабатывает только запросы типа POST потому что использование get-методов не безопасно
