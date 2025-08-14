@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 
 namespace Itmytask.DAL.Interfaces
 {
-    public interface IWorkRepository : IBaseRepository<Work>  //передаём объект Car как тип дженерика <>
-         //добавляем специфические методы
+    public interface IWorkRepository : IBaseRepository<Work>  
+        
          {
-        Task<Work> GetByNameAsync(string name);  //унаследовались от базового репозитория и внутри создали 
-        //специфический метод Car GetByNameAsync(string name); 
+        Task<Work> GetByNameAsync(string name);  
+       
 
     }
 }
