@@ -48,7 +48,40 @@
    * Запущено восстановление внешних NuGet-пакетов, исключенных из системы контроля версий (`dotnet restore`).
    * Произведена компиляция и валидация проекта (`dotnet build`).
 
-4. **Сетевая конфигурация:**
+4. **Сборка релизной версии (Production Release):**
+   * Вместо нестабильной команды `dotnet run` для продакшена собирается оптимизированный билд:
+     ```bash
+     dotnet publish -c Release -o /var/www/itmytask
+     ```
+
+5. **Настройка фоновой службы (Systemd daemon):**
+   * Для обеспечения работы приложения в режиме **24/7** и автоматического перезапуска при сбоях или перезагрузке сервера, настроена системная служба Linux.
+   * Создан конфигурационный файл демона `/etc/systemd/system/itmytask.service`:
+     ```ini
+     [Unit]
+     Description=IT-MyTask ASP.NET Core Application
+     After=network.target
+
+     [Service]
+     WorkingDirectory=/var/www/itmytask
+     ExecStart=/usr/bin/dotnet /var/www/itmytask/YourProjectName.dll --urls=http://*:80
+     Restart=always
+     RestartSec=10
+     User=limited_user_name
+     Environment=ASPNETCORE_ENVIRONMENT=Production
+
+     [Install]
+     WantedBy=multi-user.target
+     ```
+   * Управление жизненным циклом службы осуществляется стандартными системными командами:
+     ```bash
+     sudo systemctl daemon-reload
+     sudo systemctl enable itmytask.service  # Добавление в автозагрузку ОС
+     sudo systemctl start itmytask.service   # Старт фонового процесса
+     sudo systemctl status itmytask.service  # Мониторинг статуса службы
+     ```
+
+   **Сетевая конфигурация:**
    * Серверная часть приложения привязана к порту `80` и слушает входящие запросы со всех сетевых интерфейсов (`--urls=http://*:80`).
 
 ---
