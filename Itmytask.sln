@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itmytask", "WebApplication3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A488D96C-7A40-44C1-8B9E-27C8AFAAE260}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itmytask.Domain", "Automarket.Domain\Itmytask.Domain.csproj", "{BE4D95FF-9A3C-4108-ACA6-11D3D10E5F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itmytask.Domain", "Itmytask.Domain\Itmytask.Domain.csproj", "{BE4D95FF-9A3C-4108-ACA6-11D3D10E5F21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{E02A59D2-A0A4-433A-B3FE-9CD49F1C3E31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itmytask.DAL", "Automarket.DAL\Itmytask.DAL.csproj", "{D028AFBE-7A99-4990-A062-4457630EA81E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itmytask.DAL", "Itmytask.DAL\Itmytask.DAL.csproj", "{D028AFBE-7A99-4990-A062-4457630EA81E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

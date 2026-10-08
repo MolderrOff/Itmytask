@@ -1,4 +1,7 @@
 ﻿@model Itmytask.Domain.Entity.Work
+@using Microsoft.AspNetCore.Components.Web
+
+
 
 <h2>Редактирование заявки</h2>
 <p><a asp-action="Index">Вернуться на стартовую</a></p>
@@ -32,8 +35,9 @@
 
     <p>
         <label asp-for="Price">Цена</label>
-        <input type="number" asp-for="Price" />
+        <input type="number" step="0.01" asp-for="Price"  class="form-control"/>      
     </p>
+ 
     <p>
         <label asp-for="TypeWork">Работы завершены-2/Принята в работу-1/свободна-0,3,4 ..</label>
         <input type="number" asp-for="TypeWork" />
@@ -41,4 +45,6 @@
     <p>
         <input type="submit" value="Сохранить" />
     </p>
+
+
 </form>
